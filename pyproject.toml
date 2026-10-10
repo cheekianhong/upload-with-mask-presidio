@@ -1,0 +1,16 @@
+[project]
+name = "mask-local"
+version = "0.1.0"
+description = "A local review and redaction app for PDFs and photos"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "presidio-analyzer>=2.2.360,<3.0",
+    "pymupdf>=1.26.3,<2.0",
+    "pillow>=11.0,<13.0",
+    "pytesseract>=0.3.13,<0.4",
+    "spacy>=3.8.7,<4.0",
+    "streamlit>=1.50,<2.0",
+]
+
+[tool.uv]
+package = false
